@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+
+ body {
+    font-family: 'Jost', sans-serif;
+    
+ }
+
+ :root {
+    --primary-color: #37517e;
+    --secondary-color: #47B2E4;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+  }
+
+  .primary-bg{
+    background-color: var(--primary-color);
+  }
+  .nav-link {
+    color: rgb(255, 255, 255) }
+    .nav-link:hover{
+        color:  var(--secondary-color)
+    }
+    .get-btn-1  {
+        background: transparent;
+        border: 2px solid var(--secondary-color);
+        border-radius: 35px;
+       
+    }
+    .get-btn-1:hover{
+        background-color: var(--secondary-color);
+        color: white;
+    }
+    .padding a{
+        padding-inline: 15px !important;
+        font-size: 1.1rem;
+    }
+    .secondary-text-color{
+        color: #ABB9CB;
+    }
+    .bi-play-circle:hover{
+        color: var(--secondary-color);
+        
+    }
+    .icon-25px{
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
